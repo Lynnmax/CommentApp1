@@ -1,0 +1,38 @@
+body {
+	background: lightcyan;
+	margin: auto;
+	border: 30px;
+	padding: 50px;
+
+}
+
+header {
+	width: 900px;
+	border-bottom: 2px;
+}
+
+header h1 {
+	text-align: left;
+	max-width: 300px;
+}
+
+header p {
+	text-align: right;
+	max-width: 600px;
+}
+
+head h1 {
+	text-align: left;
+}
+
+head p {
+	text-align: right;
+}
+
+.comments p:nth-child(even) {
+	background: gainsboro;
+}
+
+.comments p:nth-child(odd) {
+	background: lavender;
+}
